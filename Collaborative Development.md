@@ -285,3 +285,5 @@ XXXXX_1 = flag ส่วนที่ 1
 XXXXX_2 = flag ส่วนที่ 2
 
 XXXXX_3 = flag ส่วนที่ 3
+
+XXXXX ไม่ใช้ flag นะ คือปิดไว้ จะได้ทำเอง
