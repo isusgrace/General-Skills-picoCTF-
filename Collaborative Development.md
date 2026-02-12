@@ -4,7 +4,7 @@ Yes, I can speak Thai.
 
 มา วันนี้เราจะมาทำข้อ Collaborative Development หมวด General Skills
 
-Step 1 สร้าง Directory และนำเข้าไฟล์
+# Step 1 สร้าง Directory และนำเข้าไฟล์
 
 ใช้คำสั่ง mkdir ใช้สำหรับสร้างไดเรกทอรี (หรือโฟลเดอร์) ใหม่บนระบบไฟล์
 ```
@@ -39,7 +39,7 @@ challenge.zip           100%[============================>]  23.90K   133KB/s   
 2025-10-26 01:45:39 (133 KB/s) - ‘challenge.zip’ saved [24474/24474]
 ```
 
-Step 2 unzip
+# Step 2 unzip
 ```
 ┌──(kali㉿kali)-[~/isusgrace03]
 └─$ unzip challenge.zip       
@@ -148,7 +148,7 @@ drwxr-xr-x   3 kali kali  4096 Mar 11  2024 drop-in
 
 ในส่วนนี้เราจะเห็น 1 ไฟล์ คือ challenge.zip และ 1 ไดเรกทอรี คือ drop-in
 
-Step 3 drop-in
+# Step 3 drop-in
 ```
 ┌──(kali㉿kali)-[~/isusgrace03]
 └─$ cd drop-in    
@@ -163,7 +163,7 @@ print("Printing the flag...")
 ```
 ในส่วนนี้ไม่มีอะไรน่าสนใจ
 
-Step 4 git log
+# Step 4 git log
 ```
 ┌──(kali㉿kali)-[~/isusgrace03/drop-in]
 └─$ git log                                   
@@ -177,7 +177,7 @@ Date:   Tue Mar 12 00:07:49 2024 +0000
 
 ในส่วนนี้ไม่มีอะไรน่าสนใจเช่นกัน
 
-Step 5 git reflog
+# Step 5 git reflog
 ```
 ┌──(kali㉿kali)-[~/isusgrace03/drop-in]
 └─$ git reflog
@@ -194,7 +194,7 @@ eb19d0e (HEAD -> main) HEAD@{9}: commit (initial): init flag printer
 ```
 คำสั่ง git reflog ใช้เพื่อแสดงรายการการเปลี่ยนแปลงล่าสุดที่เกิดขึ้นกับ HEAD (ส่วนชี้ไปยัง commit) ของคลังเก็บ Git ซึ่งเปรียบเสมือน "สมุดบันทึก" ที่ช่วยให้เราสามารถย้อนกลับไปดูและกู้คืนสถานะของโปรเจกต์ได้ แม้จะมีการแก้ไขประวัติ เช่น การ commit, การ merge, หรือการลบสาขาโดยไม่ได้ตั้งใจ
 
-Step 6 git branch -a
+# Step 6 git branch -a
 ```
 ┌──(kali㉿kali)-[~/isusgrace03/drop-in]
 └─$ git branch -a
@@ -205,7 +205,7 @@ Step 6 git branch -a
 ```
 คำสั่ง git branch -a ใช้สำหรับแสดงรายการ Branch ทั้งหมด ใน Repository ของเรา
 
-Step 7 git checkout feature/part-1
+# Step 7 git checkout feature/part-1
 ```
 ┌──(kali㉿kali)-[~/isusgrace03/drop-in]
 └─$ git checkout feature/part-1
@@ -232,7 +232,7 @@ print("picoCTF{XXXXX_1", end='')
 
 พอเรา cat flag.py เราก็จะเห็น flag ส่วนที่ 1 ปรากฏออกมาให้เห็น
 
-Step 8 git checkout feature/part-2
+# Step 8 git checkout feature/part-2
 ```
 ┌──(kali㉿kali)-[~/isusgrace03/drop-in]
 └─$ git checkout feature/part-2
@@ -256,7 +256,7 @@ print("XXXXX_2", end='')
 
 เราก็จะเห็น flag ส่วนที่ 2 ปรากฏออกมาให้เห็น
 
-Step 9 git checkout feature/part-3
+# Step 9 git checkout feature/part-3
 ```
 ┌──(kali㉿kali)-[~/isusgrace03/drop-in]
 └─$ git checkout feature/part-3
