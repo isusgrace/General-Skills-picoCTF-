@@ -30,5 +30,18 @@ Yes, I can speak Thai.
 
 ภาพที่ 3
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/79a2d38a-7995-4970-b868-90bc5bf154be" />
 
+ภาพที่ 4
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b5315a44-1e36-4c92-9283-062153117a6b" />
+
+ภาพที่ 5
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7de1255d-55cd-4e54-8ee7-1853797849cc" />
+
+ภาพที่ 6
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e16782bf-9789-4894-bf34-8dc37a67504f" />
+
+ภาพที่ 7
