@@ -22,7 +22,7 @@ Yes, I can speak Thai.
 
 ## วิธีที่ 1
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2215e04a-2c05-46ce-86c1-0da680cd4c37" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f249d9f9-ea60-4361-b41b-340da516c7d9" />
 
 ภาพที่ 2
 
